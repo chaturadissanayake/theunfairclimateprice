@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Pacific Paradox | Investigative Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<div id="global-tooltip" class="data-tooltip"></div>
+<div class="progress-container">
+    <div class="progress-bar" id="reading-progress"></div>
+</div>
+<nav class="editorial-nav">
+    <div class="nav-brand">PACIFIC DATAVIZ 2026</div>
+    <div class="nav-links">
+        <a href="#kinetic-hero">Report</a>
+        <a href="#methodology">Methodology</a>
+    </div>
+</nav>
+<main class="immersive-canvas">
+    <section id="kinetic-hero" class="scroll-runway hero-runway">
+        <div class="sticky-frame">
+            <div class="hero-sequence" id="hero-frame-1">
+                <span class="hero-kicker">INVESTIGATIVE REPORT</span>
+                <h1 class="hero-title">The Pacific Paradox</h1>
+                <div class="scroll-indicator">
+                    <span>Scroll to begin</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="hero-sequence hidden-sequence" id="hero-frame-2">
+                <p class="hero-dek">Pacific island nations contribute fractionally to global greenhouse gas emissions.</p>
+            </div>
+            <div class="hero-sequence hidden-sequence" id="hero-frame-3">
+                <p class="hero-dek">Yet they are structurally forced to absorb its most devastating ecological and economic costs.</p>
+                <div class="scroll-indicator">
+                    <span>Explore the Data</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="scrolly-architecture">
+        <div class="scrolly-text-column">
+            <div class="scroll-step" data-scene="sea-level" data-step="0">
+                <div class="step-content">
+                    <span class="step-chapter">01. The Shifting Baseline</span>
+                    <h2>Mean Sea Surface Temperature & Sea Level Anomalies</h2>
+                    <p>Tracking the continuous deviation of sea levels and oceanic temperatures from historical baselines across the Pacific buffer zones.</p>
+                    <p class="source-tag">Source: Mean sea surface temperature & Sea level anomalies datasets</p>
+                </div>
+            </div>
+            <div class="scroll-step" data-scene="sea-level" data-step="1">
+                <div class="step-content">
+                    <p>While global aggregates show steady warming, localized telemetry reveals severe volatility. Extreme anomalous pathways form rapidly, defying historical forecasting models and creating unmanageable oceanic surges.</p>
+                </div>
+            </div>
+        </div>
+        <figure class="scrolly-graphic-column">
+            <div class="sticky-graphic-frame" id="sea-level-canvas"></div>
+        </figure>
+    </section>
+    <div class="narrative-bridge">
+        <p>As oceanic anomalies compound, the translation from environmental shift to human cost is immediate. The financial architecture of recovery further entrenches the paradox.</p>
+    </div>
+    <section class="scrolly-architecture">
+        <div class="scrolly-text-column">
+            <div class="scroll-step" data-scene="emissions" data-step="0">
+                <div class="step-content">
+                    <span class="step-chapter">02. The Capital Disconnect</span>
+                    <h2>Emissions vs. Direct Disaster Economic Loss</h2>
+                    <p>Mapping the direct disaster economic loss against the actual greenhouse gas emissions per capita of Pacific territories.</p>
+                    <p class="source-tag">Source: Greenhouse gas emissions per capita & Direct disaster economic loss datasets</p>
+                </div>
+            </div>
+            <div class="scroll-step" data-scene="emissions" data-step="1">
+                <div class="step-content">
+                    <p>The burden of financing climate adaptation falls disproportionately on economies that did not generate the warming. The massive capital required for recovery dwarfs their minimal emission footprints, draining sovereign resources.</p>
+                </div>
+            </div>
+        </div>
+        <figure class="scrolly-graphic-column">
+            <div class="sticky-graphic-frame" id="emissions-canvas"></div>
+        </figure>
+    </section>
+    <div class="narrative-bridge">
+        <p>The economic drain is compounded by physical territorial degradation, permanently altering the habitability of these archipelagos.</p>
+    </div>
+    <section class="scrolly-architecture">
+        <div class="scrolly-text-column">
+            <div class="scroll-step" data-scene="coastline" data-step="0">
+                <div class="step-content">
+                    <span class="step-chapter">03. The Vanishing Perimeter</span>
+                    <h2>Coastline Retreat and Land Cover Alteration</h2>
+                    <p>Geospatial tracking of physical territorial loss, mapping the climate altering land cover index against coastal borders.</p>
+                    <p class="source-tag">Source: Coastline & Climate altering land cover index datasets</p>
+                </div>
+            </div>
+            <div class="scroll-step" data-scene="coastline" data-step="1">
+                <div class="step-content">
+                    <p>Rising sea levels and extreme weather events cause irreversible coastal and primary forest ecosystem loss, shrinking the habitable zones of nations that rely entirely on this land for survival.</p>
+                </div>
+            </div>
+        </div>
+        <figure class="scrolly-graphic-column">
+            <div class="sticky-graphic-frame" id="coastline-canvas"></div>
+        </figure>
+    </section>
+</main>
+<footer class="report-footer" id="methodology">
+    <div class="footer-grid">
+        <div class="footer-col">
+            <span class="footer-brand">PACIFIC DATAVIZ 2026</span>
+            <span class="footer-author">Engineered by Chatura Dissanayake</span>
+            <div class="footer-links">
+                <a href="#">About the Project</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="https://youtube.com/@vizsprint" target="_blank" rel="noopener">VizSprint</a>
+            </div>
+        </div>
+        <div class="footer-methodology">
+            <strong>Project Methodology & Sourcing</strong><br><br>
+            This interactive report fulfills the core requirement by directly utilizing official indicator datasets from the Pacific Data Hub's .Stat Explorer, including: Mean sea surface temperature anomalies, Sea level anomalies, Greenhouse gas emissions per capita, Direct disaster economic loss, Coastline, and Climate altering land cover index.
+        </div>
+    </div>
+</footer>
+<script src="js/utils.js"></script>
+<script src="js/data.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
